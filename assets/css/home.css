@@ -268,8 +268,8 @@ svg{
 }
 @media all and (max-width: 1310px){
   .product-items, .product-items:nth-of-type(4n){
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
   }
 
 }
