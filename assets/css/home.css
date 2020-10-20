@@ -45,6 +45,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.cat-item{
+  cursor: pointer;
+}
 .cat-item:hover .cat__circle{
     transform: translateY(-10px);
     box-shadow: 8px 12px 21px rgba(10, 10, 8, 0.31);
