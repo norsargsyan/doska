@@ -1,7 +1,8 @@
+// slide gallery
+
 $('.big-image').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  arrows: false,
   asNavFor: '.small-images',
   infinite: true,
   swipe: false,
@@ -62,6 +63,9 @@ $('.small-images').slick({
   },
 ],
 });
+
+// scroll image change
+
 $('.small-images').on('wheel', (function(e) {
   e.preventDefault();
   if (e.originalEvent.deltaY < 0) {
@@ -70,6 +74,8 @@ $('.small-images').on('wheel', (function(e) {
     $(this).slick('slickPrev');
   }
 }));
+
+// image zoom
 
 	$(document).ready(function() {
 		$(".fancybox-item").fancybox();

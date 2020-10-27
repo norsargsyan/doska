@@ -79,6 +79,10 @@ input[type="radio"] + .radio-label:empty:before {
 .upload__img, .upload__video{
   width: 50%;
 }
+.input-file{
+  display: flex;
+  align-items: center;
+}
 .mid-size{
   max-width: 292px;
   width: 100%;
@@ -91,10 +95,24 @@ input[type="radio"] + .radio-label:empty:before {
   background-image: url(../img/add-photo.png);
   background-repeat: no-repeat;
   background-position: center center;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+.image-item input[type="file"]{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 .upload__img{
   display: flex;
   align-items: center;
+  height: 172px;
+  margin-bottom: 0 !important;
 }
 .upload__img>div{
   margin-right: 18px;
@@ -454,6 +472,7 @@ input[type="radio"] + .radio-label:empty:before {
 @media (max-width: 1150px){
   .upload{
     flex-direction: column;
+    align-items: center;
   }
   .ml{
     padding-left: 0;
@@ -491,6 +510,17 @@ input[type="radio"] + .radio-label:empty:before {
   }
   .many-checkbox{
     flex-wrap: wrap;
+  }
+  .input-file{
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .upload__img, .upload__img>div{
+    margin-right: 0;
+  }
+  .upload__img{
+    max-width: 600px;
+    width: 100%;
   }
 }
 @media (max-width: 900px){
@@ -543,21 +573,18 @@ input[type="radio"] + .radio-label:empty:before {
   .image-item{
     height: 140px;
   }
+  .upload__img{
+      height: 140px;
+  }
 }
 @media (max-width: 500px){
   .upload__img{
     flex-wrap: wrap;
     margin-right: 0;
   }
-  .image-item, .input-file{
-    width: 40%;
-  }
+
   .input-file{
     text-align: center;
-  }
-  .upload__img>div{
-    margin-left: 18px;
-    margin-top: 15px;
   }
   .input-group {
     justify-content: space-between;
@@ -591,6 +618,9 @@ input[type="radio"] + .radio-label:empty:before {
   .textarea-form textarea {
     width: 300px;
   }
+  .image-item{
+    background-size: 80%;
+  }
 }
 @media (max-width: 360px){
   .for-left {
@@ -601,5 +631,11 @@ input[type="radio"] + .radio-label:empty:before {
   }
   .final__btn{
     font-size: 18px;
+  }
+  .image-item{
+    height: 120px;
+  }
+  .upload__img {
+    height: 125px;
   }
 }
