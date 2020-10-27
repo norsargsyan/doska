@@ -17,6 +17,50 @@ $('.small-images').slick({
   centerMode: true,
   focusOnSelect: true,
   asNavFor: '.big-image',
+  responsive: [
+  {
+    breakpoint: 580,
+    settings: {
+      vertical: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      verticalSwiping: false,
+      centerMode: true,
+      focusOnSelect: true,
+      asNavFor: '.big-image',
+    }
+  },
+  {
+    breakpoint: 500,
+    settings: {
+      vertical: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      verticalSwiping: false,
+      centerMode: true,
+      focusOnSelect: true,
+      asNavFor: '.big-image',
+    }
+  },
+  {
+    breakpoint: 400,
+    settings: {
+      vertical: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      verticalSwiping: false,
+      centerMode: true,
+      focusOnSelect: true,
+      asNavFor: '.big-image',
+    }
+  },
+],
 });
 $('.small-images').on('wheel', (function(e) {
   e.preventDefault();

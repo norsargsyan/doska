@@ -266,31 +266,88 @@
   .product-text .product-text__character-group:nth-of-type(1){
     margin-bottom: 0;
   }
-  .small-images__item{
-    margin-right: 3px;
+  .product-big-info{
+    max-width: 90%;
   }
-  .small-images__item:last-of-type{
-    margin-right: 0;
+  .small-images__item img{
+    min-width: 110px;
+  }
+  .big-image__item, .big-image{
+    max-width: 600px;
+    width: 100%;
+    min-width: auto;
+  }
+  .big-image{
+    width: 500px;
+  }
+  .small-images{
+    max-width: 112px;
+  }
+  .product-image{
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 735px){
+  .big-image {
+    width: 400px;
+    max-height: 350px;
+  }
+  .big-image img, .small-images{
+    height: 300px;
+  }
+}
+@media all and (max-width: 640px){
+  .big-image {
+    width: 350px;
+    max-height: 250px;
+  }
+  .big-image img, .small-images{
+    height: 250px;
   }
 }
 @media all and (max-width: 580px){
   .people-info{
     padding: 0 10px 35px 10px;
   }
+  .product-image{
+  flex-direction: column;
+  }
+  .big-image{
+    width: 100%;
+    max-height: 300px;
+  }
+  .big-image img{
+    height: 300px;
+  }
+  .small-images{
+    margin-left: 0;
+    max-width: none;
+    height: 80px;
+  }
+  .small-images{
+    margin-top: 16px;
+  }
+  .small-images .slick-current:before{
+      bottom: 0px;
+  }
+  .small-images__item{
+    margin-right: 6px;
+  }
+
 }
 @media all and (max-width: 550px){
   .post-title, .navigation-bar{
     margin-left: 0;
   }
-  .small-images{
-    flex-wrap: wrap;
-  }
+
 }
 @media all and (max-width: 530px){
   .similar-ads__item{
     margin-top: 20px;
   }
 }
+
 @media all and (max-width: 520px){
   .navigation-bar>ul>li{
     display: none;
@@ -304,8 +361,14 @@
   .similar-ads__item
 
 }
-
-
+@media all and (max-width: 500px){
+  .big-image img {
+    height: 250px;
+  }
+  .big-image{
+    max-height: 250px;
+  }
+}
 @media all and (max-width: 450px){
   .geolocation{
     flex-direction: column;
@@ -322,13 +385,20 @@
   .people-info {
     padding: 0 0 35px 0;
   }
+  .big-image img {
+    height: 220px;
+  }
+  .big-image{
+    max-height: 220px;
+  }
+  .slick-prev{
+    left: 5px;
+  }
+  .slick-next {
+    right: 20px;
+  }
 }
 @media all and (max-width: 360px){
-
-  .small-images__item img {
-      width: 90px;
-      height: 55px;
-  }
   .product-text {
       padding: 20px;
     }
