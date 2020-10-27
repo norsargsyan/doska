@@ -2,7 +2,7 @@
 let slideIndex = 3;
   $('.upload__img').slick({
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   infinite: false,
   arrows: false,
   dots: true,
