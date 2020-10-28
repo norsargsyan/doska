@@ -11,18 +11,21 @@
     display: flex;
 }
 .nav-top__location>a{
-    background: url(../img/location.png) no-repeat;
+    background: url(../img/location.svg) no-repeat;
     text-decoration: underline;
+    background-size: 19px 19px;
 }
 .nav-top__location>a:hover{
     text-decoration: none;
 }
 
 .nav-top__sign-in a{
-    background: url(../img/login.png) no-repeat;
+    background: url(../img/login.svg) no-repeat;
+    background-size: 19px 19px;
 }
 .nav-top__sign-up a{
-    background: url(../img/user.png) no-repeat;
+    background: url(../img/user.svg) no-repeat;
+    background-size: 19px 19px;
 }
 .nav-top a{
     padding-left: 26px;
@@ -136,7 +139,8 @@
     height: 45px;
     width: 55px;
     background-color: #fff;
-    background-image: url(../img/search.png);
+    background-image: url(../img/search.svg);
+    background-size: 23px 23px;
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;

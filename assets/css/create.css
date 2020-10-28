@@ -121,7 +121,12 @@ input[type="radio"] + .radio-label:empty:before {
   display: none;
 }
 .upload-img{
+  width: 47px;
+  height: 47px;
+  display: inline-block;
   cursor: pointer;
+  background: url(../img/plus.svg);
+  background-size: 100% 100%;
 }
 .upload__span, .upload__input{
   display: flex;
@@ -437,9 +442,10 @@ input[type="radio"] + .radio-label:empty:before {
   border-radius: 25px;
   color: #fff;
   font-size: 19px;
-  background-image: url(../img/plus.png);
+  background-image: url(../img/plus-white-25.svg);
   background-position: 10px center;
   background-repeat: no-repeat;
+  background-size: 25px 25px;
   font-weight: 700;
   transition: background-color .2s ease-in-out;
 }

@@ -20,11 +20,11 @@
        transform="scale(0.1)"
        id="g12"><path
          id="path14"
-         style="fill:#e54d00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="M 5120,2560 C 5120,1146.18 3973.82,0 2560,0 1146.18,0 0,1146.18 0,2560 0,3973.82 1146.18,5120 2560,5120 3973.82,5120 5120,3973.82 5120,2560 Z m -426.67,0 C 4693.33,3738.18 3738.18,4693.33 2560,4693.33 1381.82,4693.33 426.668,3738.18 426.668,2560 426.668,1381.82 1381.82,426.672 2560,426.672 c 1178.18,0 2133.33,955.148 2133.33,2133.328" /><path
          id="path16"
-         style="fill:#e54d00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="M 2346.67,3840 V 1280 c 0,-117.82 95.51,-213.33 213.33,-213.33 117.82,0 213.33,95.51 213.33,213.33 v 2560 c 0,117.82 -95.51,213.33 -213.33,213.33 -117.82,0 -213.33,-95.51 -213.33,-213.33" /><path
          id="path18"
-         style="fill:#e54d00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 1280.38,2346.67 h 2559.58 c 117.82,0 213.33,95.51 213.33,213.33 0,117.82 -95.51,213.33 -213.33,213.33 H 1280.38 c -117.82,0 -213.33,-95.51 -213.33,-213.33 0,-117.82 95.51,-213.33 213.33,-213.33" /></g></g></svg>
